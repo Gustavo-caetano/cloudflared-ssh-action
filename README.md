@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: connect to remote server
-      uses: Gustavo-caetano/cloudflared-ssh-action@1.0
+      uses: Gustavo-caetano/cloudflared-ssh-action@1.5
       with:
         host: ${{ vars.HOST }}
         username: ${{ secrets.USERNAME }}
